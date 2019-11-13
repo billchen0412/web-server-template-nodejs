@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "baseUrl": "src", // enable typescript to import with relative path
+    "outDir": "build",
+    "pretty": true,
+    "sourceMap": false,
+    "strict": true,
+    "esModuleInterop": true,
+  },
+  "include": [
+    "src/**/*",
+  ]
+}
